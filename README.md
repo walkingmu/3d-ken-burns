@@ -5,16 +5,16 @@ Note: cupy library is not offically supported on Windows. This repo is only test
 
 # anaconda packages
 You may run the following commands in Anaconda to download the packages:
-conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
-conda install -c conda-forge opencv
-conda install -c conda-forge flask
-conda install -c conda-forge gevent
-conda install -c conda-forge h5py
-conda install -c conda-forge scipy
-conda install -c conda-forge moviepy
-pip install imageio==2.4.1
-conda install -c anaconda requests
-pip install cupy-cuda101
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch<br/>
+conda install -c conda-forge opencv<br/>
+conda install -c conda-forge flask<br/>
+conda install -c conda-forge gevent<br/>
+conda install -c conda-forge h5py<br/>
+conda install -c conda-forge scipy<br/>
+conda install -c conda-forge moviepy<br/>
+pip install imageio==2.4.1<br/>
+conda install -c anaconda requests<br/>
+pip install cupy-cuda101<br/>
 
 moviepy install imageio 2.6.1 by default and has an issue with ffmpeg library. Downgrading it with version 2.4.1 solves the problem.
 
