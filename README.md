@@ -1,3 +1,23 @@
+# differences
+This repo updated a few files with minor changes to make 3d-ken-burns work on Windows Platform. The code is tested under Windows 10 platform with Anaconda and CUDA 10.1
+
+Note: cupy that used in this repo is not offically supported on Windows. This repo is only tested with cupy 7.1.1
+
+# anaconda packages
+You may run the following commands in Anaconda to download the packages:
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+conda install -c conda-forge opencv
+conda install -c conda-forge flask
+conda install -c conda-forge gevent
+conda install -c conda-forge h5py
+conda install -c conda-forge scipy
+conda install -c conda-forge moviepy
+pip install imageio==2.4.1
+conda install -c anaconda requests
+pip install cupy-cuda101
+
+moviepy install imageio 2.6.1 by default and has an issue with ffmpeg library. Overwriting it with 2.4.1 solves the problem.
+
 # 3d-ken-burns
 This is a reference implementation of 3D Ken Burns Effect from a Single Image [1] using PyTorch. Given a single input image, it animates this still image with a virtual camera scan and zoom subject to motion parallax. Should you be making use of our work, please cite our paper [1].
 
