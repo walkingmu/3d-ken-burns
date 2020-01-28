@@ -16,7 +16,7 @@ pip install imageio==2.4.1
 conda install -c anaconda requests
 pip install cupy-cuda101
 
-moviepy install imageio 2.6.1 by default and has an issue with ffmpeg library. Overwriting it with 2.4.1 solves the problem.
+moviepy install imageio 2.6.1 by default and has an issue with ffmpeg library. Downgrading it with version 2.4.1 solves the problem.
 
 # 3d-ken-burns
 This is a reference implementation of 3D Ken Burns Effect from a Single Image [1] using PyTorch. Given a single input image, it animates this still image with a virtual camera scan and zoom subject to motion parallax. Should you be making use of our work, please cite our paper [1].
