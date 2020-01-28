@@ -1,7 +1,7 @@
 # differences
 This repo updated a few files with minor changes to make 3d-ken-burns work on Windows Platform. The code is tested under Windows 10 platform with Anaconda and CUDA 10.1
 
-Note: cupy that used in this repo is not offically supported on Windows. This repo is only tested with cupy 7.1.1
+Note: cupy library is not offically supported on Windows. This repo is only tested with cupy 7.1.1
 
 # anaconda packages
 You may run the following commands in Anaconda to download the packages:
